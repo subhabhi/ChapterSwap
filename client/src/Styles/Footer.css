@@ -1,0 +1,117 @@
+/* .form-container{
+    background-color: #4D77FF;
+    padding: 80px 250px 10px 250px;
+    color: white;
+    font-weight: 600;
+  }
+  .form-container h3{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+  }
+  .form-container .mb-3{
+    margin: 40px 0;
+  }
+  .form-container button{
+    display: block;
+    margin: 50px auto;
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  .form-container button:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+  }
+  .form-container button:active{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+  }
+  @media screen and (max-width: 1400px) 
+  {
+    .form-container{
+      padding: 60px 30px 5px 30px;
+    }
+  } */
+
+/* .footerContainer{
+    text-align: center;
+    background-color: rgb(218, 231, 227);
+    
+}
+.footerContainer a{
+    text-decoration: none;
+    color: rgb(160, 171, 177);
+}
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.icons{
+    height: 50px;
+    width: 50px;
+
+}
+.icons::after{
+    content: " ";
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 10px;
+}
+.icons::before{
+    content: "";
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 10px;
+}
+.footerSpan{
+    color: gray;
+
+} */
+.footer-container{
+  text-align: center;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 40px;
+  color: gray;
+  padding: 25px;
+}
+.foot-left img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.foot-left
+{
+  color: #4D77FF;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 30%;
+}
+#privacy{
+  display: inline-block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1400px) 
+{
+.footer-container{
+  padding: 20px 0 20px 0;
+  margin: 0 25px;
+}
+.foot-left
+{
+  width: fit-content;
+  margin-right: 15px;
+}
+}
