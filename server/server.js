@@ -22,7 +22,7 @@ const { checkError } = require("./multerLogic");
 const path = require("path");
 require("dotenv").config();
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://chapter-swap.onrender.com",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
